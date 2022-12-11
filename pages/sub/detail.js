@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Layout from "../components/Layout";
-import Image from "next/image";
+import React, { useState } from 'react'
+import Layout from '../components/Layout2'
+import Image from 'next/image'
 
 export default function Detail() {
   return (
@@ -9,7 +9,7 @@ export default function Detail() {
         <div className="w-9/12 mx-auto h-full text-center bg-white">
           <h1 className="text-4xl my-4">CENTO 10 SL(완성차)</h1>
           <Image
-            src={"/img/GLCO/CENTO 10 SL(완성차).jpg"}
+            src={'/img/GLCO/CENTO 10 SL(완성차).jpg'}
             width={500}
             height={400}
           />
@@ -76,5 +76,5 @@ export default function Detail() {
         </div>
       </div>
     </Layout>
-  );
+  )
 }
